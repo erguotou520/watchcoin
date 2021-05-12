@@ -12,6 +12,8 @@
 		D146690F264A89B600CFB01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D146690E264A89B600CFB01A /* Assets.xcassets */; };
 		D1466912264A89B600CFB01A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1466911264A89B600CFB01A /* Preview Assets.xcassets */; };
 		D1466915264A89B600CFB01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1466913264A89B600CFB01A /* Main.storyboard */; };
+		D146691E264A8BB800CFB01A /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D146691D264A8BB800CFB01A /* StatusBarController.swift */; };
+		D1466920264A944F00CFB01A /* HuobiResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D146691F264A944F00CFB01A /* HuobiResp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		D1466914264A89B600CFB01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1466916264A89B600CFB01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1466917264A89B600CFB01A /* watchcoin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = watchcoin.entitlements; sourceTree = "<group>"; };
+		D146691D264A8BB800CFB01A /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		D146691F264A944F00CFB01A /* HuobiResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuobiResp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				D1466916264A89B600CFB01A /* Info.plist */,
 				D1466917264A89B600CFB01A /* watchcoin.entitlements */,
 				D1466910264A89B600CFB01A /* Preview Content */,
+				D146691D264A8BB800CFB01A /* StatusBarController.swift */,
+				D146691F264A944F00CFB01A /* HuobiResp.swift */,
 			);
 			path = watchcoin;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D146690D264A89AF00CFB01A /* ContentView.swift in Sources */,
+				D146691E264A8BB800CFB01A /* StatusBarController.swift in Sources */,
 				D146690B264A89AF00CFB01A /* AppDelegate.swift in Sources */,
+				D1466920264A944F00CFB01A /* HuobiResp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
